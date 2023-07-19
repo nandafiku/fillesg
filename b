@@ -13,7 +13,7 @@ gcloud services enable \
   container.googleapis.com \
   run.googleapis.com
 gcloud notebooks instances create soss \
-  --location=us-west1-a \
+  --location=us-central1-a \
   --vm-image-project=deeplearning-platform-release \
   --vm-image-family=common-cpu-notebooks \
   --machine-type=n1-standard-4
