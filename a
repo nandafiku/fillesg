@@ -89,7 +89,7 @@ gcloud ai hp-tuning-jobs create \
     --parallel-trial-count=10 \
     --config=config.yaml
 gcloud ai hp-tuning-jobs create \
-    --region=europe-west4\
+    --region=europe-west4 \
     --display-name=tes16 \
     --max-trial-count=9000 \
     --parallel-trial-count=10 \
