@@ -1,0 +1,80 @@
+gcloud alpha ai custom-jobs create \
+    --region=us-central1 \
+    --display-name=piton \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=us-east1 \
+    --display-name=piton2 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=us-east4 \
+    --display-name=piton3 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=us-west1 \
+    --display-name=piton4 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=us-west2 \
+    --display-name=piton5 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=us-west4 \
+    --display-name=piton6 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=asia-east1 \
+    --display-name=piton7 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=asia-northeast1 \
+    --display-name=piton8 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=asia-south1 \
+    --display-name=piton9 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=asia-southeast1 \
+    --display-name=piton10 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=australia-southeast1 \
+    --display-name=piton11 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=europe-central2 \
+    --display-name=piton12 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=europe-west1 \
+    --display-name=piton13 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=europe-west2 \
+    --display-name=piton14 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=europe-west3 \
+    --display-name=piton15 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
+gcloud alpha ai custom-jobs create \
+    --region=europe-west4 \
+    --display-name=piton16 \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner \
+    --worker-pool-spec=machine-type=g2-standard-96,replica-count=1,container-image-uri=gcr.io/cok/zepir:runner
