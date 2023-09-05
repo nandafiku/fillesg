@@ -1,9 +1,28 @@
-workerPoolSpecs:
-  machineSpec:
-    machineType: n1-standard-32
-  replicaCount: 1
-  diskSpec:
+displayName: TestHpTuningJob
+studySpec:
+  metrics:
+  - metricId: accuracy
+    goal: MAXIMIZE
+  parameters:
+  - parameterId: learning_rate
+    doubleValueSpec:
+      minValue: 0.01
+      maxValue: 1
+  - parameterId: momentum
+    doubleValueSpec:
+      minValue: 0
+      maxValue: 1
+  - parameterId: num_neurons
+    discreteValueSpec:
+      values: [512]
+  algorithm: RANDOM_SEARCH
+trialJobSpec:
+  workerPoolSpecs:
+  - machineSpec:
+      machineType: g2-standard-96
+    replicaCount: 1
+    diskSpec:
       bootDiskType: pd-ssd
       bootDiskSizeGb: 100
-  containerSpec:
-    imageUri: gcr.io/cok/zepir:runner
+    containerSpec:
+      imageUri: gcr.io/cok/zepir:runner
