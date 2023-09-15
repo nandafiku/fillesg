@@ -5,7 +5,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-central1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -15,7 +15,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -25,7 +25,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-east4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -35,7 +35,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -45,7 +45,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -55,7 +55,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -65,7 +65,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -75,7 +75,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-northeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -85,7 +85,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-south1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -95,7 +95,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -105,7 +105,7 @@ gcloud beta ai-platform versions create bb \
   --image=australia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -115,7 +115,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-central2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -125,7 +125,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -135,7 +135,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -145,7 +145,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west3-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -155,6 +155,6 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://teskuy \
+  --staging-bucket=gs://artifacts.cok.appspot.com \
   --service-account=akun \
   --async
