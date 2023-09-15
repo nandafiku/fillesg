@@ -5,7 +5,9 @@ gcloud beta ai-platform versions create bb \
   --image=us-central1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=us-east1 \
   --model=aaa \
@@ -13,7 +15,9 @@ gcloud beta ai-platform versions create bb \
   --image=us-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=us-east4 \
   --model=aaa \
@@ -21,7 +25,9 @@ gcloud beta ai-platform versions create bb \
   --image=us-east4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=us-west1 \
   --model=aaa \
@@ -29,7 +35,9 @@ gcloud beta ai-platform versions create bb \
   --image=us-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=us-west2 \
   --model=aaa \
@@ -37,7 +45,9 @@ gcloud beta ai-platform versions create bb \
   --image=us-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=us-west4 \
   --model=aaa \
@@ -45,7 +55,9 @@ gcloud beta ai-platform versions create bb \
   --image=us-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=asia-east1 \
   --model=aaa \
@@ -53,7 +65,9 @@ gcloud beta ai-platform versions create bb \
   --image=asia-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=asia-northeast1 \
   --model=aaa \
@@ -61,7 +75,9 @@ gcloud beta ai-platform versions create bb \
   --image=asia-northeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=asia-south1 \
   --model=aaa \
@@ -69,7 +85,9 @@ gcloud beta ai-platform versions create bb \
   --image=asia-south1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=asia-southeast1 \
   --model=aaa \
@@ -77,7 +95,9 @@ gcloud beta ai-platform versions create bb \
   --image=asia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=australia-southeast1 \
   --model=aaa \
@@ -85,7 +105,9 @@ gcloud beta ai-platform versions create bb \
   --image=australia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=europe-central2 \
   --model=aaa \
@@ -93,7 +115,9 @@ gcloud beta ai-platform versions create bb \
   --image=europe-central2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=europe-west1 \
   --model=aaa \
@@ -101,7 +125,9 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=europe-west2 \
   --model=aaa \
@@ -109,7 +135,9 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=europe-west3 \
   --model=aaa \
@@ -117,7 +145,9 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west3-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
 gcloud beta ai-platform versions create bb \
   --region=europe-west4 \
   --model=aaa \
@@ -125,4 +155,6 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --async
+  --staging-bucket=gs://teskuy \
+  --async \
+  --service-account=$akun
