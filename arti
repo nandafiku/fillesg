@@ -1,14 +1,17 @@
 gcloud storage buckets create gs://teskuy
-gcloud artifacts repositories create pro --repository-format=docker --location=us-central1 && gcloud artifacts repositories create pro --repository-format=docker --location=us-east1 && gcloud artifacts repositories create pro --repository-format=docker --location=us-east4 && gcloud artifacts repositories create pro --repository-format=docker --location=us-west1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-east1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-northeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-southeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=australia-southeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=northamerica-northeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west1 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west2 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west3 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west4
+gcloud artifacts repositories create pro --repository-format=docker --location=us-central1 && gcloud artifacts repositories create pro --repository-format=docker --location=us-east1 && gcloud artifacts repositories create pro --repository-format=docker --location=us-east4 && gcloud artifacts repositories create pro --repository-format=docker --location=us-west1 && gcloud artifacts repositories create pro --repository-format=docker --location=us-west2 && gcloud artifacts repositories create pro --repository-format=docker --location=us-west4 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-east1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-northeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-south1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-southeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=australia-southeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-central2 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west1 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west2 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west3 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west4
 gcloud auth configure-docker us-central1-docker.pkg.dev -q
 gcloud auth configure-docker us-east1-docker.pkg.dev -q
 gcloud auth configure-docker us-east4-docker.pkg.dev -q
 gcloud auth configure-docker us-west1-docker.pkg.dev -q
+gcloud auth configure-docker us-west2-docker.pkg.dev -q
+gcloud auth configure-docker us-west4-docker.pkg.dev -q
 gcloud auth configure-docker asia-east1-docker.pkg.dev -q
 gcloud auth configure-docker asia-northeast1-docker.pkg.dev -q
+gcloud auth configure-docker asia-south1-docker.pkg.dev -q
 gcloud auth configure-docker asia-southeast1-docker.pkg.dev -q
 gcloud auth configure-docker australia-southeast1-docker.pkg.dev -q
-gcloud auth configure-docker northamerica-northeast1-docker.pkg.dev -q
+gcloud auth configure-docker europe-central2-docker.pkg.dev -q
 gcloud auth configure-docker europe-west1-docker.pkg.dev -q
 gcloud auth configure-docker europe-west2-docker.pkg.dev -q
 gcloud auth configure-docker europe-west3-docker.pkg.dev -q
@@ -36,6 +39,16 @@ docker build ./ -t us-west1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
+export IMAGE_URI=us-west2-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-west2-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-west4-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-west4-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
 export IMAGE_URI=asia-east1-docker.pkg.dev/cok/pro/mod:1
 docker build ./ -t asia-east1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
@@ -43,6 +56,11 @@ export IMAGE_NAME=mod
 export IMAGE_TAG=1
 export IMAGE_URI=asia-northeast1-docker.pkg.dev/cok/pro/mod:1
 docker build ./ -t asia-northeast1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-south1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-south1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
@@ -56,8 +74,8 @@ docker build ./ -t australia-southeast1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
-export IMAGE_URI=northamerica-northeast1-docker.pkg.dev/cok/pro/mod:1
-docker build ./ -t northamerica-northeast1-docker.pkg.dev/cok/pro/mod:1
+export IMAGE_URI=europe-central2-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-central2-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
@@ -82,11 +100,14 @@ docker push us-central1-docker.pkg.dev/cok/pro/mod:1
 docker push us-east1-docker.pkg.dev/cok/pro/mod:1
 docker push us-east4-docker.pkg.dev/cok/pro/mod:1
 docker push us-west1-docker.pkg.dev/cok/pro/mod:1
+docker push us-west2-docker.pkg.dev/cok/pro/mod:1
+docker push us-west4-docker.pkg.dev/cok/pro/mod:1
 docker push asia-east1-docker.pkg.dev/cok/pro/mod:1
 docker push asia-northeast1-docker.pkg.dev/cok/pro/mod:1
+docker push asia-south1-docker.pkg.dev/cok/pro/mod:1
 docker push asia-southeast1-docker.pkg.dev/cok/pro/mod:1
 docker push australia-southeast1-docker.pkg.dev/cok/pro/mod:1
-docker push northamerica-northeast1-docker.pkg.dev/cok/pro/mod:1
+docker push europe-central2-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west1-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west2-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west3-docker.pkg.dev/cok/pro/mod:1
