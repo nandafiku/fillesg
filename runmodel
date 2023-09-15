@@ -5,7 +5,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-central1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -15,7 +15,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=us-central1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -25,7 +25,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=us-central1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -35,7 +35,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=us-central1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -45,7 +45,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -55,7 +55,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=us-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -65,7 +65,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=us-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -75,7 +75,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=us-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -85,7 +85,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-east4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -95,7 +95,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=us-east4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -105,7 +105,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=us-east4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -115,7 +115,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=us-east4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -125,7 +125,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -135,7 +135,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=us-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -145,7 +145,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=us-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -155,7 +155,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=us-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -165,7 +165,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -175,7 +175,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=us-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -185,7 +185,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=us-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -195,7 +195,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=us-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -205,7 +205,7 @@ gcloud beta ai-platform versions create bb \
   --image=us-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -215,7 +215,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=us-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -225,7 +225,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=us-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -235,7 +235,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=us-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -245,7 +245,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -255,7 +255,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=asia-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -265,7 +265,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=asia-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -275,7 +275,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=asia-east1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -285,7 +285,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-northeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -295,7 +295,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=asia-northeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -305,7 +305,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=asia-northeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -315,7 +315,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=asia-northeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -325,7 +325,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-south1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -335,7 +335,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=asia-south1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -345,7 +345,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=asia-south1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -355,7 +355,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=asia-south1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -365,7 +365,7 @@ gcloud beta ai-platform versions create bb \
   --image=asia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -375,7 +375,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=asia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -385,7 +385,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=asia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -395,7 +395,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=asia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -405,7 +405,7 @@ gcloud beta ai-platform versions create bb \
   --image=australia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -415,7 +415,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=australia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -425,7 +425,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=australia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -435,7 +435,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=australia-southeast1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -445,7 +445,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-central2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -455,7 +455,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=europe-central2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -465,7 +465,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=europe-central2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -475,7 +475,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=europe-central2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -485,7 +485,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -495,7 +495,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=europe-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -505,7 +505,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=europe-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -515,7 +515,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=europe-west1-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -525,7 +525,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -535,7 +535,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=europe-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -545,7 +545,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=europe-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -555,7 +555,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=europe-west2-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -565,7 +565,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west3-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -575,7 +575,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=europe-west3-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -585,7 +585,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=europe-west3-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -595,7 +595,7 @@ gcloud beta ai-platform versions create bb3 \
   --image=europe-west3-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb \
@@ -605,7 +605,7 @@ gcloud beta ai-platform versions create bb \
   --image=europe-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb1 \
@@ -615,7 +615,7 @@ gcloud beta ai-platform versions create bb1 \
   --image=europe-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb2 \
@@ -625,7 +625,7 @@ gcloud beta ai-platform versions create bb2 \
   --image=europe-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
 gcloud beta ai-platform versions create bb3 \
@@ -635,6 +635,6 @@ gcloud beta ai-platform versions create bb3 \
   --image=europe-west4-docker.pkg.dev/cok/pro/mod:1 \
   --min-nodes=25 \
   --ports=8080 \
-  --staging-bucket=gs://artifacts.cok.appspot.com \
+  --staging-bucket=gs://kotak \
   --service-account=akun \
   --async
