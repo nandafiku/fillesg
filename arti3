@@ -1,1 +1,80 @@
-docker build ./ -t us-central1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t us-east1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t us-east4-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t us-west1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t us-west2-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t us-west4-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t asia-east1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t asia-northeast1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t asia-south1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t asia-southeast1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t australia-southeast1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t europe-central2-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t europe-west1-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t europe-west2-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t europe-west3-docker.pkg.dev/cok/pro/mod:1 && docker build ./ -t europe-west4-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-central1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-central1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-east1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-east1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-east4-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-east4-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-west1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-west1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-west2-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-west2-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-west4-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-west4-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-east1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-east1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-northeast1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-northeast1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-south1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-south1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-southeast1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-southeast1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=australia-southeast1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t australia-southeast1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=europe-central2-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-central2-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=europe-west1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-west1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=europe-west2-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-west2-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=europe-west3-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-west3-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=europe-west4-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-west4-docker.pkg.dev/cok/pro/mod:1
