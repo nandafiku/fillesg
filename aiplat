@@ -1,0 +1,36 @@
+gcloud artifacts repositories create pro --repository-format=docker --location=us-east1 && gcloud artifacts repositories create pro --repository-format=docker --location=us-west1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-east1 && gcloud artifacts repositories create pro --repository-format=docker --location=asia-southeast1 && gcloud artifacts repositories create pro --repository-format=docker --location=europe-west1 
+gcloud auth configure-docker us-east1-docker.pkg.dev -q
+gcloud auth configure-docker us-west1-docker.pkg.dev -q
+gcloud auth configure-docker asia-east1-docker.pkg.dev -q
+gcloud auth configure-docker asia-southeast1-docker.pkg.dev -q
+gcloud auth configure-docker europe-west1-docker.pkg.dev -q
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-east1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-east1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=us-west1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t us-west1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-east1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-east1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=asia-southeast1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t asia-southeast1-docker.pkg.dev/cok/pro/mod:1
+export REPO_NAME=pro
+export IMAGE_NAME=mod
+export IMAGE_TAG=1
+export IMAGE_URI=europe-west1-docker.pkg.dev/cok/pro/mod:1
+docker build ./ -t europe-west1-docker.pkg.dev/cok/pro/mod:1
+docker push us-east1-docker.pkg.dev/cok/pro/mod:1
+docker push us-west1-docker.pkg.dev/cok/pro/mod:1
+docker push asia-east1-docker.pkg.dev/cok/pro/mod:1
+docker push asia-southeast1-docker.pkg.dev/cok/pro/mod:1
+docker push europe-west1-docker.pkg.dev/cok/pro/mod:1
