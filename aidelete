@@ -16,7 +16,6 @@ gcloud beta ai-platform versions delete bb \
 gcloud beta ai-platform versions delete bb1 \
   --region=us-west1 \
   --model=aaa -q
-  --machine-type=n1-highcpu-16 \
 gcloud beta ai-platform versions delete bb2 \
   --region=us-west1 \
   --model=aaa -q
