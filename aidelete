@@ -1,0 +1,61 @@
+gcloud beta ai-platform versions delete bb \
+  --region=us-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb1 \
+  --region=us-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb2 \
+  --region=us-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb3 \
+  --region=us-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb \
+  --region=us-west1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb1 \
+  --region=us-west1 \
+  --model=aaa \
+  --machine-type=n1-highcpu-16 \
+gcloud beta ai-platform versions delete bb2 \
+  --region=us-west1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb3 \
+  --region=us-west1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb \
+  --region=asia-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb1 \
+  --region=asia-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb2 \
+  --region=asia-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb3 \
+  --region=asia-east1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb \
+  --region=asia-southeast1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb1 \
+  --region=asia-southeast1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb2 \
+  --region=asia-southeast1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb3 \
+  --region=asia-southeast1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb \
+  --region=europe-west1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb1 \
+  --region=europe-west1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb2 \
+  --region=europe-west1 \
+  --model=aaa \
+gcloud beta ai-platform versions delete bb3 \
+  --region=europe-west1 \
+  --model=aaa \
