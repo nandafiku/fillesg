@@ -1,8 +1,3 @@
-gcloud beta ai-platform models create aaa --region=us-east1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=us-west1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=asia-east1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=asia-southeast1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=europe-west1 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform versions create bb1 \
   --region=us-east1 \
   --model=aaa \
