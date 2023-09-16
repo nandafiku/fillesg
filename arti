@@ -3,14 +3,10 @@ gcloud auth configure-docker us-central1-docker.pkg.dev -q
 gcloud auth configure-docker us-east1-docker.pkg.dev -q
 gcloud auth configure-docker us-east4-docker.pkg.dev -q
 gcloud auth configure-docker us-west1-docker.pkg.dev -q
-gcloud auth configure-docker us-west2-docker.pkg.dev -q
-gcloud auth configure-docker us-west4-docker.pkg.dev -q
 gcloud auth configure-docker asia-east1-docker.pkg.dev -q
 gcloud auth configure-docker asia-northeast1-docker.pkg.dev -q
-gcloud auth configure-docker asia-south1-docker.pkg.dev -q
 gcloud auth configure-docker asia-southeast1-docker.pkg.dev -q
 gcloud auth configure-docker australia-southeast1-docker.pkg.dev -q
-gcloud auth configure-docker europe-central2-docker.pkg.dev -q
 gcloud auth configure-docker europe-west1-docker.pkg.dev -q
 gcloud auth configure-docker europe-west2-docker.pkg.dev -q
 gcloud auth configure-docker europe-west3-docker.pkg.dev -q
@@ -38,16 +34,6 @@ docker build ./ -t us-west1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
-export IMAGE_URI=us-west2-docker.pkg.dev/cok/pro/mod:1
-docker build ./ -t us-west2-docker.pkg.dev/cok/pro/mod:1
-export REPO_NAME=pro
-export IMAGE_NAME=mod
-export IMAGE_TAG=1
-export IMAGE_URI=us-west4-docker.pkg.dev/cok/pro/mod:1
-docker build ./ -t us-west4-docker.pkg.dev/cok/pro/mod:1
-export REPO_NAME=pro
-export IMAGE_NAME=mod
-export IMAGE_TAG=1
 export IMAGE_URI=asia-east1-docker.pkg.dev/cok/pro/mod:1
 docker build ./ -t asia-east1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
@@ -58,11 +44,6 @@ docker build ./ -t asia-northeast1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
-export IMAGE_URI=asia-south1-docker.pkg.dev/cok/pro/mod:1
-docker build ./ -t asia-south1-docker.pkg.dev/cok/pro/mod:1
-export REPO_NAME=pro
-export IMAGE_NAME=mod
-export IMAGE_TAG=1
 export IMAGE_URI=asia-southeast1-docker.pkg.dev/cok/pro/mod:1
 docker build ./ -t asia-southeast1-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
@@ -70,11 +51,6 @@ export IMAGE_NAME=mod
 export IMAGE_TAG=1
 export IMAGE_URI=australia-southeast1-docker.pkg.dev/cok/pro/mod:1
 docker build ./ -t australia-southeast1-docker.pkg.dev/cok/pro/mod:1
-export REPO_NAME=pro
-export IMAGE_NAME=mod
-export IMAGE_TAG=1
-export IMAGE_URI=europe-central2-docker.pkg.dev/cok/pro/mod:1
-docker build ./ -t europe-central2-docker.pkg.dev/cok/pro/mod:1
 export REPO_NAME=pro
 export IMAGE_NAME=mod
 export IMAGE_TAG=1
@@ -99,14 +75,10 @@ docker push us-central1-docker.pkg.dev/cok/pro/mod:1
 docker push us-east1-docker.pkg.dev/cok/pro/mod:1
 docker push us-east4-docker.pkg.dev/cok/pro/mod:1
 docker push us-west1-docker.pkg.dev/cok/pro/mod:1
-docker push us-west2-docker.pkg.dev/cok/pro/mod:1
-docker push us-west4-docker.pkg.dev/cok/pro/mod:1
 docker push asia-east1-docker.pkg.dev/cok/pro/mod:1
 docker push asia-northeast1-docker.pkg.dev/cok/pro/mod:1
-docker push asia-south1-docker.pkg.dev/cok/pro/mod:1
 docker push asia-southeast1-docker.pkg.dev/cok/pro/mod:1
 docker push australia-southeast1-docker.pkg.dev/cok/pro/mod:1
-docker push europe-central2-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west1-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west2-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west3-docker.pkg.dev/cok/pro/mod:1
@@ -115,14 +87,10 @@ gcloud beta ai-platform models create aaa --region=us-central1 --enable-logging 
 gcloud beta ai-platform models create aaa --region=us-east1 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=us-east4 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=us-west1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=us-west2 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=us-west4 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=asia-east1 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=asia-northeast1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=asia-south1 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=asia-southeast1 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=australia-southeast1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=europe-central2 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=europe-west1 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=europe-west2 --enable-logging --enable-console-logging -q
 gcloud beta ai-platform models create aaa --region=europe-west3 --enable-logging --enable-console-logging -q
