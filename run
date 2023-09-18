@@ -3,5 +3,5 @@ while true
 do
         ./aidelete
         ./aimodel
-        sleep 5m
+        sleep 10s
 done
