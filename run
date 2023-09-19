@@ -1,7 +1,7 @@
 #!/bin/bash
 while true
 do
-        ./aidelete
         ./aimodel
+        ./aidelete
         sleep 10s
 done
