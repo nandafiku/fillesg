@@ -34,8 +34,8 @@ docker push us-west1-docker.pkg.dev/cok/pro/mod:1
 docker push asia-east1-docker.pkg.dev/cok/pro/mod:1
 docker push asia-southeast1-docker.pkg.dev/cok/pro/mod:1
 docker push europe-west1-docker.pkg.dev/cok/pro/mod:1
-gcloud beta ai-platform models create aaa --region=us-east1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=us-west1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=asia-east1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=asia-southeast1 --enable-logging --enable-console-logging -q
-gcloud beta ai-platform models create aaa --region=europe-west1 --enable-logging --enable-console-logging -q
+gcloud beta ai-platform models create aaaa --region=us-east1 --enable-logging --enable-console-logging -q
+gcloud beta ai-platform models create aaaa --region=us-west1 --enable-logging --enable-console-logging -q
+gcloud beta ai-platform models create aaaa --region=asia-east1 --enable-logging --enable-console-logging -q
+gcloud beta ai-platform models create aaaa --region=asia-southeast1 --enable-logging --enable-console-logging -q
+gcloud beta ai-platform models create aaaa --region=europe-west1 --enable-logging --enable-console-logging -q
