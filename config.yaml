@@ -14,7 +14,7 @@ studySpec:
       maxValue: 1
   - parameterId: num_neurons
     discreteValueSpec:
-      values: [512]
+      values: 512
   algorithm: RANDOM_SEARCH
 trialJobSpec:
   workerPoolSpecs:
