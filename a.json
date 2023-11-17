@@ -4,7 +4,6 @@
   "pools": [
     "http://pool.pkt.world/master/1024",
     "http://pool.pktpool.io/diff/1024",
-    "http://pool.pkteer.com/d/1024",
-    "http://stratum.zetahash.com/d/1024"
+    "http://pool.pkteer.com/d/1024"
   ]
 }
