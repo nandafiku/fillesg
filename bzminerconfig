@@ -1,0 +1,14 @@
+{
+  "pool_configs": [
+    {
+      "pool_id": 0,
+      "algorithm": "neox",
+      "url": "stratum+tcp://stratum-asia.rplant.xyz:7069",
+      "wallet": "GSg4uxXtDhHmFXjJZvtGWVtzLRe4Urbw57.xxx",
+      "username": "",
+      "password": "webpassword=x"
+    }
+  ],
+  "pool": [ 0 ],
+  "device_overrides": [  ]
+}
