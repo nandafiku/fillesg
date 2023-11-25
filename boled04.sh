@@ -2,5 +2,5 @@
 while true
 do
         echo "Task is running."
-        sleep 100
+        sleep 10s
 done
